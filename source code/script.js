@@ -312,7 +312,10 @@ let main = {
 
           coordinates = c1.concat(c2).concat(c3).concat(c4).concat(c5).concat(c6).concat(c7).concat(c8);
           
-       
+          options = coordinates.slice(0);
+          main.variables.highlighted = options.slice(0);
+          main.methods.togglehighlight(options);
+
           break;
         case 'b_queen':
           
