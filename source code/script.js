@@ -239,6 +239,9 @@ let main = {
     gamesetup: function() {
       $('.gamecell').attr('chess', 'null');
       for (let gamepiece in main.variables.pieces) {
+        $('#' + main.variables.pieces[gamepiece].position).html(main.variables.pieces[gamepiece].img);
+        $('#' + main.variables.pieces[gamepiece].position).attr('chess', gamepiece);
+      }
     },
 
     moveoptions: function(selectedpiece) {
