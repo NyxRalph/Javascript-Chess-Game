@@ -246,9 +246,9 @@ let main = {
 
     moveoptions: function(selectedpiece) {
 
-      let position = { x: '', y: '' };
-      position.x = main.variables.pieces[selectedpiece].position.split('_')[0];
-      position.y = main.variables.pieces[selectedpiece].position.split('_')[1];
+      // let position = { x: '', y: '' };
+      // position.x = main.variables.pieces[selectedpiece].position.split('_')[0];
+      // position.y = main.variables.pieces[selectedpiece].position.split('_')[1];
 
       // these options need to be var instead of let
       var options = []; 
