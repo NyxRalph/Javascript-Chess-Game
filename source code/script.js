@@ -55,13 +55,13 @@ let main = {
         moved: false,
         type: 'w_rook'
       },
-      // w_rook2: {
-      //   position: '8_1',
-      //   img: '&#9814;',
-      //   captured: false,
-      //   moved: false,
-      //   type: 'w_rook'
-      // },
+      w_rook2: {
+        position: '8_1',
+        img: '&#9814;',
+        captured: false,
+        moved: false,
+        type: 'w_rook'
+      },
       w_pawn1: {
         position: '1_2',
         img: '&#9817;',
