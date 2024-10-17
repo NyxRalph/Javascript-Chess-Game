@@ -168,13 +168,13 @@ let main = {
         moved: false,
         type: 'b_rook'
       },
-      b_rook2: {
-        position: '8_8',
-        img: '&#9820;',
-        captured: false,
-        moved: false,
-        type: 'b_rook'
-      },
+      // b_rook2: {
+      //   position: '8_8',
+      //   img: '&#9820;',
+      //   captured: false,
+      //   moved: false,
+      //   type: 'b_rook'
+      // },
       b_pawn1: {
         position: '1_7',
         img: '&#9823;',
